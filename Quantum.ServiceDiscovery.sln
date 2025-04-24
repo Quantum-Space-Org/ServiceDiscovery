@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5074ECE4-CB41-4155-9202-1252A2E15654}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{09EB2FBF-5DE0-49CE-9D6B-ED6351A0A82F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceDiscovery", "ServiceDiscovery", "{A5164C35-C42A-47A3-AF2C-95995008BE3C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quantum.ServiceDiscovery", "src\ServiceDiscovery\Quantum.ServiceDiscovert\Quantum.ServiceDiscovery.csproj", "{7A3C7C29-9321-4730-9DB2-4BFB21EE32AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quantum.ServiceDiscovery.Tests", "src\ServiceDiscovery\Quantum.ServiceDiscovery.Tests\Quantum.ServiceDiscovery.Tests.csproj", "{14E93BE6-A7CC-4CD3-825E-F68682873E72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quantum.ServiceDiscovery.SqlServer", "src\ServiceDiscovery\Quantum.ServiceDiscovery.SqlServer\Quantum.ServiceDiscovery.SqlServer.csproj", "{78433CC0-60F1-4989-AB96-17F9CE10ADF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quantum.ServiceDiscovery.Extensions", "src\ServiceDiscovery\Quantum.ServiceDiscovery.Extensions\Quantum.ServiceDiscovery.Extensions.csproj", "{AD4DC40F-6AFD-4FCF-BB48-5673A75B3C8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quantum.ServiceDiscovery.Consul", "src\ServiceDiscovery\Quantum.ServiceDiscovery.Consul\Quantum.ServiceDiscovery.Consul.csproj", "{4AC9C0BD-17D7-4119-B13C-855BB4C94BEE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quantum.ConfigurationManagement", "src\ServiceDiscovery\Quantum.ConfigurationManagement\Quantum.ConfigurationManagement.csproj", "{E7515AAD-DF99-40F4-AFE7-964B6DDD3EC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A3C7C29-9321-4730-9DB2-4BFB21EE32AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A3C7C29-9321-4730-9DB2-4BFB21EE32AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A3C7C29-9321-4730-9DB2-4BFB21EE32AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A3C7C29-9321-4730-9DB2-4BFB21EE32AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14E93BE6-A7CC-4CD3-825E-F68682873E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E93BE6-A7CC-4CD3-825E-F68682873E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E93BE6-A7CC-4CD3-825E-F68682873E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E93BE6-A7CC-4CD3-825E-F68682873E72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78433CC0-60F1-4989-AB96-17F9CE10ADF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78433CC0-60F1-4989-AB96-17F9CE10ADF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78433CC0-60F1-4989-AB96-17F9CE10ADF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78433CC0-60F1-4989-AB96-17F9CE10ADF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD4DC40F-6AFD-4FCF-BB48-5673A75B3C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD4DC40F-6AFD-4FCF-BB48-5673A75B3C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD4DC40F-6AFD-4FCF-BB48-5673A75B3C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD4DC40F-6AFD-4FCF-BB48-5673A75B3C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AC9C0BD-17D7-4119-B13C-855BB4C94BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AC9C0BD-17D7-4119-B13C-855BB4C94BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AC9C0BD-17D7-4119-B13C-855BB4C94BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AC9C0BD-17D7-4119-B13C-855BB4C94BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7515AAD-DF99-40F4-AFE7-964B6DDD3EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7515AAD-DF99-40F4-AFE7-964B6DDD3EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7515AAD-DF99-40F4-AFE7-964B6DDD3EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7515AAD-DF99-40F4-AFE7-964B6DDD3EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A5164C35-C42A-47A3-AF2C-95995008BE3C} = {5074ECE4-CB41-4155-9202-1252A2E15654}
+		{7A3C7C29-9321-4730-9DB2-4BFB21EE32AB} = {A5164C35-C42A-47A3-AF2C-95995008BE3C}
+		{14E93BE6-A7CC-4CD3-825E-F68682873E72} = {A5164C35-C42A-47A3-AF2C-95995008BE3C}
+		{78433CC0-60F1-4989-AB96-17F9CE10ADF3} = {A5164C35-C42A-47A3-AF2C-95995008BE3C}
+		{AD4DC40F-6AFD-4FCF-BB48-5673A75B3C8E} = {A5164C35-C42A-47A3-AF2C-95995008BE3C}
+		{4AC9C0BD-17D7-4119-B13C-855BB4C94BEE} = {A5164C35-C42A-47A3-AF2C-95995008BE3C}
+		{E7515AAD-DF99-40F4-AFE7-964B6DDD3EC3} = {A5164C35-C42A-47A3-AF2C-95995008BE3C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CE69326-D13A-4A9B-974F-50FB4C5203BA}
+	EndGlobalSection
+EndGlobal
