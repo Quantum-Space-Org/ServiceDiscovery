@@ -9,7 +9,7 @@ $CONFIG = "Release"
 $OUTPUT_DIR = ".\build"  # This will ensure the build folder is in the root
 
 Write-Host "🔨 Building solution in $(Get-Location) ..."
-dotnet build Quantum.RingBuffer.sln --configuration $CONFIG
+dotnet build Quantum.ServiceDiscovery.sln --configuration $CONFIG
 
 Write-Host "📦 Packing..."
-dotnet pack Quantum.RingBuffer.sln --configuration $CONFIG --output $OUTPUT_DIR
+dotnet pack Quantum.ServiceDiscovery.sln --configuration $CONFIG --output $OUTPUT_DIR

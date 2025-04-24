@@ -7,11 +7,11 @@ CONFIG="Release"
 OUTPUT_DIR="./build"
  
 echo "🔄 Restoring dependencies..."
-dotnet restore Quantum.RingBuffer.sln
+dotnet restore Quantum.ServiceDiscovery.sln
 
 echo "🔨 Building solution in $(pwd) ..."
-dotnet build Quantum.RingBuffer.sln --configuration $CONFIG
+dotnet build Quantum.ServiceDiscovery.sln --configuration $CONFIG
 
 
 echo "📦 Packing..."
-dotnet pack Quantum.RingBuffer.sln --configuration $CONFIG --output $OUTPUT_DIR
+dotnet pack Quantum.ServiceDiscovery.sln --configuration $CONFIG --output $OUTPUT_DIR
